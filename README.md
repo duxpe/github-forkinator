@@ -9,6 +9,26 @@
 
 Uma aplicação em Python para facilitar a integração do Git e GitHub em ambientes educacionais, promovendo a colaboração, revisões de código e boas práticas entre alunos.
 
+---
+
+## 📋 Índice
+
+- [Github-Forkinator](#github-forkinator)
+  - [📋 Índice](#-índice)
+  - [Visão Geral](#visão-geral)
+  - [Tecnologias Utilizadas](#tecnologias-utilizadas)
+  - [Objetivo](#objetivo)
+  - [Fluxo de Trabalho Proposto](#fluxo-de-trabalho-proposto)
+  - [Funcionalidades](#funcionalidades)
+  - [Instalação e Configuração](#instalação-e-configuração)
+  - [Uso](#uso)
+    - [Parâmetros](#parâmetros)
+  - [Considerações Finais](#considerações-finais)
+  - [Contribuição](#contribuição)
+  - [Licença](#licença)
+
+---
+
 ## Visão Geral
 
 Esse projeto nasceu de uma conversa descontraída com um professor que buscava uma maneira prática de aplicar Git e GitHub com alunos iniciantes. A ideia era incentivar a colaboração e boas práticas, mas também evitar que os alunos apenas "clicassem para aprovar" os pull requests dos amigos sem ler de verdade. Pra isso, ele queria rotacionar os colaboradores entre diferentes repositórios durante as atividades.
@@ -77,7 +97,7 @@ pip install -r requirements.txt
 Dentro da pasta `scripts`, execute o script principal:
 
 ```bash  
-python collaborator_randomizer.py --repos nome-do-meu-projeto1 meu-projeto2 outro-repo [--qtd 5]  
+python collaborator_randomizer.py --repos nome-do-meu-projeto1 meu-projeto2 outro-repo --qtd 5  
 ```
 
 ### Parâmetros
